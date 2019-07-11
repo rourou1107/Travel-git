@@ -1,0 +1,124 @@
+{
+  "ret": true,
+  "data": {
+    "iconList": [
+      {
+        "id": "0001",
+        "src": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      },
+      {
+        "id": "0002",
+        "src": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "广州必游"
+      },
+      {
+        "id": "0003",
+        "src": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "动植物园"
+      },
+      {
+        "id": "0004",
+        "src": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/a40ee278d67000f2a29d2e20f6a029b3.png",
+        "desc": "自然风光"
+      },
+      {
+        "id": "0005",
+        "src": "http://img1.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png",
+        "desc": "珠江夜游"
+      },
+      {
+        "id": "0006",
+        "src": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+        "desc": "长隆亲子月"
+      },
+      {
+        "id": "0007",
+        "src": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游"
+      },
+      {
+        "id": "0008",
+        "src": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/184e261814a5d07a5d3d08cd29cf590d.png",
+        "desc": "长隆度假区"
+      },
+      {
+        "id": "0009",
+        "src": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/c032ae43b15a3dac34b5e07bb0e46850.png",
+        "desc": "广州塔"
+      }
+    ],
+    "weekendList": [
+      {
+        "id": "00001",
+        "src": "http://img1.qunarzz.com/sight/source/1811/15/66f14e0fd6fbb.jpg_r_640x214_5d69f21d.jpg",
+        "title": "东莞龙凤山庄影视渡假村",
+        "desc": "东莞龙凤山庄影视渡假村东莞龙凤山庄影视渡假村"
+      },
+      {
+        "id": "00002",
+        "src": "http://img1.qunarzz.com/sight/source/1811/b8/5d599bbdcf8b57.jpg_r_640x214_2ee055e3.jpg",
+        "title": "隐贤山庄",
+        "desc": "隐贤山庄隐贤山庄隐贤山庄隐贤山庄隐贤山庄"
+      },
+      {
+        "id": "00003",
+        "src": "http://img1.qunarzz.com/sight/source/1505/4b/d04aa63b1b0ab3.jpg_r_640x214_a3a9c5b6.jpg",
+        "title": "东莞观音山旅游风景区",
+        "desc": "东莞观音山旅游风景区东莞观音山旅游风景区东莞观音山旅游风景区东莞观音山旅游风景区"
+      },
+      {
+        "id": "00004",
+        "src": "http://img1.qunarzz.com/sight/source/1602/88/bf120edeaea383.jpg_r_640x214_f8591f7b.jpg",
+        "title": "东莞香市动物园",
+        "desc": "东莞香市动物园东莞香市动物园东莞香市动物园"
+      }
+    ],
+    "swiperList": [
+      {
+        "id": "00001",
+        "src": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20195/69c69e52b47d5f725be924f5563d1285.jpg_890x330_7bb33f95.jpg"
+      },
+      {
+        "id": "00002",
+        "src": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20195/4cf92fd4010e46d9e2698e89d08c5708.jpg_890x330_3f24e836.jpg"
+      },
+      {
+        "id": "00003",
+        "src": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/682df2ddabdeb7078f9a9225462c9470.jpg_890x330_b7a20aeb.jpg"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "00001",
+        "src": "http://img1.qunarzz.com/sight/p0/1902/7a/7ac34ad6cc6e7497a3.img.jpg_200x200_939e55b1.jpg",
+        "title": "东莞龙凤山庄影视渡假村",
+        "desc": "东莞龙凤山庄影视渡假村东莞龙凤山庄影视渡假村"
+      },
+      {
+        "id": "00002",
+        "src": "http://img1.qunarzz.com/sight/p0/1511/34/34170b200db08a5a90.img.jpg_200x200_cc3130fd.jpg",
+        "title": "隐贤山庄",
+        "desc": "隐贤山庄隐贤山庄隐贤山庄隐贤山庄隐贤山庄"
+      },
+      {
+        "id": "00003",
+        "src": "http://img1.qunarzz.com/sight/p0/1905/af/af4f95f579ee43b1a3.water.jpg_200x200_9fdbf80f.jpg",
+        "title": "东莞观音山旅游风景区",
+        "desc": "东莞观音山旅游风景区东莞观音山旅游风景区东莞观音山旅游风景区东莞观音山旅游风景区"
+      },
+      {
+        "id": "00004",
+        "src": "http://img1.qunarzz.com/sight/p0/1603/1d/1d756648039bf30f90.water.jpg_200x200_64da9a70.jpg",
+        "title": "东莞香市动物园",
+        "desc": "东莞香市动物园东莞香市动物园东莞香市动物园"
+      },
+      {
+        "id": "00005",
+        "src": "http://img1.qunarzz.com/sight/p0/1602/a2/a2db6aea3707663a90.img.jpg_200x200_cbf889a6.jpg",
+        "title": "梦幻百花洲",
+        "desc": "梦幻百花洲"
+      }
+    ]
+  }
+}
