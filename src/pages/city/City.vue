@@ -39,12 +39,11 @@ export default {
   },
   methods: {
     getInfo () {
-      axios.get('api/city.json').then(this.getInfoSucc)
-    },
-    getInfoSucc (res) {
-      res = res.data.data
-      this.hotCities = res.hotCities
-      this.cities = res.cities
+      axios.get('api/city.json').then((res) => {
+        res = res.data.data
+        this.hotCities = res.hotCities
+        this.cities = res.cities
+      })
     },
     handleMove (index) {
       this.index = index

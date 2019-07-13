@@ -36,18 +36,17 @@ export default {
   },
   methods: {
     getInfo (id) {
-      axios.get('/api/detail/banner' + id + '.json').then(this.getInfoSucc)
-    },
-    getInfoSucc (res) {
-      res = res.data
-      if (res.ret && res.data) {
+      axios.get('/api/detail/banner' + id + '.json').then((res) => {
         res = res.data
-        // console.log(res)
-        this.bannerImg = res.bannerImg
-        this.categoryList = res.categoryList
-        this.gallaryImgs = res.gallaryImgs
-        this.sightName = res.sightName
-      }
+        if (res.ret && res.data) {
+          res = res.data
+          // console.log(res)
+          this.bannerImg = res.bannerImg
+          this.categoryList = res.categoryList
+          this.gallaryImgs = res.gallaryImgs
+          this.sightName = res.sightName
+        }
+      })
     }
   }
 }

@@ -43,13 +43,12 @@ export default {
   },
   methods: {
     getHomeInfo () {
-      axios.get('api/index.json').then(this.getInfoSucc)
-    },
-    getInfoSucc (res) {
-      res = res.data.data
-      this.iconList = res.iconList
-      this.recommendList = res.recommendList
-      this.weekendList = res.weekendList
+      axios.get('api/index.json').then((res) => {
+        res = res.data.data
+        this.iconList = res.iconList
+        this.recommendList = res.recommendList
+        this.weekendList = res.weekendList
+      })
     }
   }
 }
