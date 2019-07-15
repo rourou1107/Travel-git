@@ -3,7 +3,7 @@
     <div class="content">
       <div class="list-current">
         <div class="current-city">当前城市</div>
-        <button class="btn">{{city}}</button>
+        <button class="btn">{{getCity}}</button>
       </div>
       <div class="list-hot">
         <div class="hot-city">热门城市</div>
@@ -36,7 +36,7 @@
 </template>
 <script>
 import BScroll from 'better-scroll'
-import { mapState, mapActions } from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 export default {
   name: 'CityList',
   props: {
@@ -48,13 +48,12 @@ export default {
     return {}
   },
   computed: {
-    // mapState()函数返回的是一个对象,使用结构运算符,将对象中的属性/方法放出来
+    // mapState()函数返回的是一个对象,使用解构运算符,将对象中的属性/方法放出来
     // ...mapState(['city']) 当计算属性的名称与state节点的名称相同时,可以用数组表示
-    ...mapState({
-      city: function () {
-        return this.$store.state.city
-      }
-    })
+    // ...mapState({
+    //   city: state => state.city
+    // })
+    ...mapGetters(['getCity'])
   },
   mounted () {
     // this.scroll = new BScroll(DOM)就可以
